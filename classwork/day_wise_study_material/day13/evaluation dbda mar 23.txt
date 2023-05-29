@@ -1,0 +1,50 @@
+
+1.
+Continuously accept input from the user until user enters "stop" and add the given data into a list. 
+The data given by the user can contain either numbers or text (anything that is not a number). Once the user finishes supplying input,  
+segregate the data into 2 lists - numbers and strings - and display the segregated output to the user
+
+2. accept multiple scores from user as space separated string. accept n from user and find nth highest score from the given scores. 
+
+3.
+Write a python program to manage movie data.  
+create a Movie class. store movies in a dictionary and 
+
+do the following
+1.   Add new movie
+2.   Delete a movie
+3.   Display all movie of the given actor
+4.   display actor name and count of movie in which the actor acted
+5.   Exit
+If user selects choice 1 then add a new record
+If choice is 2 then accept movieid and delete the movie by id
+If choice is 3 then accept actor name from user and list all movies in 
+        which the actor has played role, at the end show total number of movies.
+If choice is 4 then then display actor name and number of movies of the actor
+
+accept data from user as string for each movie as shown below, 
+
+
+movieid : moviname :List of actors:price
+ list of actors is separated by comma
+for e.g -
+ 
+ 111:Andhadhund:Tabbu,Ayushman Khurana:200
+ 222:3 Idiot:amir khan,kareena kappor,Madhavan:315.45
+ 333:Drishyam:Tabbu,Ajay Devgan:200
+ 444: jab we met:shahid Kapoor,kareena Kapoor:320.23
+
+
+4.  store following contents in a movies.csv file using notepad edior
+
+111:Andhadhund:Tabbu,Ayushman Khurana:200
+ 222:3 Idiot:amir khan,kareena kappor,Madhavan:315.45
+ 333:Drishyam:Tabbu,Ajay Devgan:200
+ 444: jab we met:shahid Kapoor,kareena Kapoor:320.23
+ 444: Chupake chupke :Akshay khanna,kareena Kapoor:-9999
+
+1. read file using pandas dataframe
+2. replace all -9999 values with 100 
+3. find average of all ticket prices
+4. display 1st 5 rows of the frame
+5. find how many not null values are there in each column

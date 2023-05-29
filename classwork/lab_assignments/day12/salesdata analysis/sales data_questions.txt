@@ -1,0 +1,13 @@
+1. list names of columns in the data frame
+2. in the data frame how many rows and columns are there
+3. how many distinct values are there in product_category column
+4. how many rows are ther in each group
+5. find maximum , mean, average of quantity and unitprice for each product category
+6. draw a bar graph for each product category average unit price
+7. draw a pie chart for each product_category and average quantity
+8. get basic statistical summary split by each group
+9. how many distinct values are there in status column
+10. how many product_category maximum  products are not delivered
+11. Which sales manager has sold maximum products.
+12. Which sales manager has sold minimum products.
+13. draw a pie chart for each status and number of products with the same status.
